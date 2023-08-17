@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.4.1-support-sass-embedded.3](https://github.com/webpack-contrib/sass-loader/compare/v10.4.1-support-sass-embedded.2...v10.4.1-support-sass-embedded.3) (2023-08-17)
+
 ### [10.4.1-support-sass-embedded.2](https://github.com/webpack-contrib/sass-loader/compare/v10.4.1-support-sass-embedded.1...v10.4.1-support-sass-embedded.2) (2023-08-17)
 
 
