@@ -1,6 +1,6 @@
 {
   "name": "@bsfishy/sass-loader",
-  "version": "10.4.1-support-sass-embedded.1",
+  "version": "10.4.1-support-sass-embedded.2",
   "description": "Sass loader for webpack",
   "license": "MIT",
   "repository": "webpack-contrib/sass-loader",

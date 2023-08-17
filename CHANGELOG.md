@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.4.1-support-sass-embedded.2](https://github.com/webpack-contrib/sass-loader/compare/v10.4.1-support-sass-embedded.1...v10.4.1-support-sass-embedded.2) (2023-08-17)
+
+
+### Bug Fixes
+
+* add resolution for sass-embedded ([1efdc0f](https://github.com/webpack-contrib/sass-loader/commit/1efdc0f47ccda889fe0c96033b229b7d1080ec17))
+
 ### [10.4.1-support-sass-embedded.1](https://github.com/webpack-contrib/sass-loader/compare/v10.4.1...v10.4.1-support-sass-embedded.1) (2023-08-17)
 
 
