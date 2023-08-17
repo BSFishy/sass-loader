@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.4.1-support-sass-embedded.1](https://github.com/webpack-contrib/sass-loader/compare/v10.4.1...v10.4.1-support-sass-embedded.1) (2023-08-17)
+
+
+### Features
+
+* add sass-embedded to auto loading ([7bf2062](https://github.com/webpack-contrib/sass-loader/commit/7bf2062892be738ff7d529683be891a5dd400991))
+
 ### [10.4.1](https://github.com/webpack-contrib/sass-loader/compare/v10.4.0...v10.4.1) (2022-11-15)
 
 
