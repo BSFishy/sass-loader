@@ -57,6 +57,11 @@ function getSassImplementation(loaderContext, implementation) {
 
   const infoParts = info.split("\t");
 
+  if (infoParts[0] === "sass-embedded") {
+    // eslint-disable-next-line consistent-return
+    return resolvedImplementation;
+  }
+
   if (infoParts.length < 2) {
     loaderContext.emitError(
       new Error(`Unknown Sass implementation "${info}".`)
