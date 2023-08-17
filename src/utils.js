@@ -15,8 +15,13 @@ function getDefaultSassImplementation() {
     try {
       require.resolve("node-sass");
       sassImplPkg = "node-sass";
-    } catch (ignoreError) {
-      sassImplPkg = "sass";
+    } catch (error) {
+      try {
+        require.resolve("sass-embedded");
+        sassImplPkg = "sass-embedded";
+      } catch (ignoreError) {
+        sassImplPkg = "sass";
+      }
     }
   }
 
@@ -241,8 +246,7 @@ async function getSassOptions(
 // - ~@org/
 // - ~@org/package
 // - ~@org/package/
-const isModuleImport =
-  /^~([^/]+|[^/]+\/|@[^/]+[/][^/]+|@[^/]+\/?|@[^/]+[/][^/]+\/)$/;
+const isModuleImport = /^~([^/]+|[^/]+\/|@[^/]+[/][^/]+|@[^/]+\/?|@[^/]+[/][^/]+\/)$/;
 
 /**
  * When `sass`/`node-sass` tries to resolve an import, it uses a special algorithm.
