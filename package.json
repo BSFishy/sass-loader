@@ -1,5 +1,5 @@
 {
-  "name": "sass-loader",
+  "name": "@bsfishy/sass-loader",
   "version": "10.4.1-node-sass-9.0",
   "description": "Sass loader for webpack",
   "license": "MIT",
